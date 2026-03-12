@@ -48,3 +48,6 @@ with st.expander('Analizar texto'):
             st.lottie(animation,width=350)
         else:
             st.write( 'Es un sentimiento Neutral 😐')
+            with open ("Bad Cat.json") as source:
+                 animation=json.load(source)
+            st.lottie(animation,width=350)
