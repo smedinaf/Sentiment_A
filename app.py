@@ -41,7 +41,7 @@ st.title('💖 Sentiment Diary ✨')
 
 # Imagen principal (asegúrate de tener el archivo o usa una URL)
 try:
-    image = Image.open('emoticones.jpg')
+    image = Image.open('feelings.jpg')
     st.image(image, use_column_width=True)
 except:
     st.write("✨ *Insertar imagen divina aquí* ✨")
